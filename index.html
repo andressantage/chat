@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leon Chat</title>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/673/118/png-transparent-flag-of-england-flag-of-the-united-kingdom-kingdom-s-flag-logo-united-kingdom.png"/>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div class="header">
+    <img class="profile-pic" src="https://b.thumbs.redditmedia.com/VP7kaqVayElpM3yQNsjKMr-cyg5Jd5OnQL6GK12REHk.jpg" alt="profile picture">
+    <h4>Leon Chat</h4>
+  </div>
+
+  <div class="chat-container">
+    <div id="chatbot">
+      <div id="chat-area"></div>
+      <div class="input-group">
+        <input type="text" id="user-input" class="form-control" placeholder="Escribe aquí...">
+        <button id="send-button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+    <script src="chatbot.js"></script>
+    
+    <script>
+var tituloOriginal = document.title; // Lo guardamos para restablecerlo
+window.onblur = function(){ // Si el usuario se va a otro lado...
+  document.title = "go back bro :(";// Cambiamos el título
+}
+
+window.onfocus = function(){
+  document.title = tituloOriginal; // Si el usuario vuelve restablecemos el título
+}
+</script>

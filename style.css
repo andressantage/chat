@@ -1,0 +1,119 @@
+
+
+/* Estilo para la cabecera */
+.header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+  border-radius: 100%;
+  margin-right: 15px;
+  max-width:50px;
+  max-height: 50px;
+}
+
+.header h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Estilo para el contenedor del chat */
+.chat-container {
+  width: 99%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+/* Estilo para el área del chat */
+  body {
+    background-color: #f5f5f5;
+    font-family: "Roboto", Arial, sans-serif;
+  }
+  
+  #chatbot {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+  #chat-area {
+    flex: 1;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  #user-input {
+    flex: 1;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  #send-button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0088cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #send-button:hover {
+    background-color: #0077b3;
+  }
+
+/* Estilo para el área de entrada */
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.input-group input {
+  flex: 1;
+  margin-right: 15px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #f5f5f5;
+}
+
+.input-group button {
+  background-color: #0088cc;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #0072b2;
+}
+
